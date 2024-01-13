@@ -1,0 +1,54 @@
+ZOOtopia Zoo Management System
+
+The ZOOtopia Zoo Management System is a Java program that allows zoo administrators and visitors to manage and explore a zoo.
+The program includes features for managing attractions, animals, events, discounts, and visitor interactions.
+
+
+Home folder = zootopia
+
+pom.xml file is in AP Assignment 2 folder
+
+steps to be followed
+1. download AP Assignment 2 folder
+2. mvn clean
+3. mvn install
+4. mvn package
+5. cd target    // important jar file is in target folder
+6. java -jar AP Assignment 2.jar
+
+assumptions;
+1. discounts are applied on membership
+2. deals are applied on tickets
+Admin Actions
+
+As an admin, you can:
+Manage attractions (add, view, modify, remove).
+Manage animals (add, update, remove).
+Schedule events for attractions.
+Set discounts and special deals.
+View visitor statistics and feedback.
+
+Visitor Actions
+
+As a visitor, you can:
+Register or log in.
+Explore the zoo (view attractions and animals).
+Buy membership.
+Buy tickets for attractions.
+View available discounts and special deals.
+Visit and interact with animals.
+Visit attractions.
+Leave feedback.
+Exiting the Program
+
+You can exit the program at any time by selecting the "Exit" option.
+Additional Notes
+
+The program provides a text-based interface and uses a simple command-line menu system.
+Ensure that you follow the prompts and input the required information as directed.
+Dependencies
+
+This program does not have external dependencies and is written in standard Java.
+Feedback
+
+We welcome your feedback and suggestions for improving the program.
